@@ -1,2 +1,2 @@
 # CulinaryRecipeApi
-asp.net + ef.core api on clean architecture
+asp.net + ef.core rest api on clean architecture
