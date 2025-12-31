@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\.net\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\.net\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Domain\\UseCases\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\UseCases\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\.net\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Domain\\UseCases\\DTO\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\UseCases\\DTO\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\.net\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Domain\\UseCases\\Services\\RecipeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\UseCases\\Services\\RecipeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\Projects\\.net\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Domain\\UseCases\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\DTO\\UserDto.cs",
+              "ToolTip": "D:\\Projects\\.net\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Domain\\UseCases\\DTO\\UserDto.cs",
+              "RelativeToolTip": "Domain\\UseCases\\DTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:28:33.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Projects\\.net\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Domain\\UseCases\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\Services\\UserService.cs",
+              "ToolTip": "D:\\Projects\\.net\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Domain\\UseCases\\Services\\UserService.cs",
+              "RelativeToolTip": "Domain\\UseCases\\Services\\UserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:23:39.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeService.cs",
+              "DocumentMoniker": "D:\\Projects\\.net\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Domain\\UseCases\\Services\\RecipeService.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\Services\\RecipeService.cs",
+              "ToolTip": "D:\\Projects\\.net\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Domain\\UseCases\\Services\\RecipeService.cs",
+              "RelativeToolTip": "Domain\\UseCases\\Services\\RecipeService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T04:58:19.789Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Domain",
+    "\\Domain\\UseCases",
+    "\\Domain\\UseCases\\DTO",
+    "\\Domain\\UseCases\\Interface",
+    "\\Domain\\UseCases\\Repository",
+    "\\Domain\\UseCases\\Services",
+    "\\Domain\\UseCases\\Validators"
+  ],
+  "SelectedNode": "\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
