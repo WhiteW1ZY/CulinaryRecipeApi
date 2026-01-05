@@ -12,6 +12,7 @@ using CulinaryRecipeAPI.Infrastructure.Repository;
 using CulinaryRecipeAPI.Infrastructure.Validators;
 using CulinaryRecipeAPI.UseCases.Classes.Creaters.CategoryCreater;
 using CulinaryRecipeAPI.UseCases.Classes.Creaters.ClaimCreater;
+using CulinaryRecipeAPI.UseCases.Classes.Creaters.ImageCreater;
 using CulinaryRecipeAPI.UseCases.Classes.Creaters.IngredientCreater;
 using CulinaryRecipeAPI.UseCases.Classes.Creaters.JwtCreater;
 using CulinaryRecipeAPI.UseCases.Classes.Creaters.RecipeCreater;
@@ -33,6 +34,7 @@ using CulinaryRecipeAPI.UseCases.PermissionsServices.UserPermissionService;
 using CulinaryRecipeAPI.UseCases.Repository;
 using CulinaryRecipeAPI.UseCases.Services;
 using CulinaryRecipeAPI.UseCases.Validators.CategoryDtoValidator;
+using CulinaryRecipeAPI.UseCases.Validators.ImageValidator;
 using CulinaryRecipeAPI.UseCases.Validators.IngredientDtoValidator;
 using CulinaryRecipeAPI.UseCases.Validators.RecipeDtoValidator;
 using CulinaryRecipeAPI.UseCases.Validators.UserDtoValidator;
@@ -89,7 +91,10 @@ namespace CulinaryRecipeAPI.Configurations
             services.AddScoped<IRequestExtractor, RequestExtractor>();
             services.AddScoped<IHttpContextExtractor, HttpContextExtractor>();
             services.AddScoped<IRequestValidator, RequestValidator>();
-            
+
+            services.AddSingleton<IImageValidator, ImageValidator>();
+            services.AddSingleton<IImageCreater, ImageCreater>();
+
             services.AddSingleton<IClaimsPrincipalExtractor, ClaimsPrincipalExtractor>();
             services.AddSingleton<IClaimCreater, ClaimCreater>();
             services.AddSingleton<IJwtCreater, JwtCreater>();

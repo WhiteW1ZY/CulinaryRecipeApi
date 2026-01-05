@@ -21,7 +21,7 @@ namespace CulinaryRecipeAPI.Infrastructure.Controllers
         {
             _categoryServiceAsync = categoryServiceAsync;
             _categoryMapper = categoryMapper;
-        }
+        } 
         [ProducesResponseType(typeof(CategoryResponseDto), StatusCodes.Status200OK)] 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CategoryResponseDto>>> GetAllCategories()

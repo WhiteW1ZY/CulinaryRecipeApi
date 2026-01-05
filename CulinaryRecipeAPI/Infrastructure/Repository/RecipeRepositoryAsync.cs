@@ -44,6 +44,7 @@ namespace CulinaryRecipeAPI.Infrastructure.Repository
             recipe.Title = newRecipe.Title;
             recipe.RecipeText = newRecipe.RecipeText;
             recipe.CookingTime = newRecipe.CookingTime;
+            recipe.ImagePath = newRecipe.ImagePath;
             recipe.Categories = newRecipe.Categories;
             recipe.Ingredients = newRecipe.Ingredients; 
             recipe.Author = newRecipe.Author;

@@ -1,4 +1,5 @@
-﻿using CulinaryRecipeAPI.Domain.Models; 
+﻿using CulinaryRecipeAPI.Domain.Models;
+using CulinaryRecipeAPI.UseCases.Classes.Creaters.ImageCreater;
 using CulinaryRecipeAPI.UseCases.Repository;
 
 namespace CulinaryRecipeAPI.UseCases.Classes.Handlers
@@ -17,6 +18,7 @@ namespace CulinaryRecipeAPI.UseCases.Classes.Handlers
         }
         public async Task ProcessRecipeDependenciesAsync(Recipe recipe)
         {
+
             var newIngredientsTasks = recipe.Ingredients.Select(async ingredient =>
             {
                 var existedIngredient = await _ingredientRepositoryAsync.GetIngredientByName(ingredient.Name);

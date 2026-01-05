@@ -5,15 +5,17 @@
         public int Id { get; set; }
         public String Title { get; set; }
         public String RecipeText { get; set; }
+        public String? ImagePath { get; set; }
         public int CookingTime { get; set; }
         public DateTime CreatingDate { get; set; }
         public User? Author { get; set; }
         public IEnumerable<Category> Categories { get; set; }
         public IEnumerable<Ingredient> Ingredients { get; set; }
-        public Recipe(String title, String recipeText, int cookingTime, User? user, IEnumerable<Category> categories, IEnumerable<Ingredient> ingredients)
+        public Recipe(String title, String recipeText, String? imagePath, int cookingTime, User? user, IEnumerable<Category> categories, IEnumerable<Ingredient> ingredients)
         {
             this.Title = title;
             this.RecipeText = recipeText;
+            this.ImagePath = imagePath;
             this.CookingTime = cookingTime;
             this.CreatingDate = DateTime.Now;
             this.Author = user;

@@ -3,8 +3,9 @@
     public class RecipeResponseDto
     {
         public int Id { get; set; }
-        public string Title { get; set; }
-        public string RecipeText { get; set; }
+        public String Title { get; set; }
+        public String RecipeText { get; set; }
+        public String? ImagePath { get; set; }
         public int CookingTime { get; set; }
         public DateTime CreatingDate { get; set; }
         public int? AuthorId { get; set; }

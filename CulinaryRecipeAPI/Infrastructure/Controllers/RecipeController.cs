@@ -47,7 +47,8 @@ namespace CulinaryRecipeAPI.Infrastructure.Controllers
         [ProducesResponseType(typeof(ApiErrorResponse), StatusCodes.Status403Forbidden)]
         [HttpPost]
         [ServiceFilter(typeof(RecipeCreateFilter))]
-        public async Task<ActionResult> CreateRecipe([FromBody] RecipeDto recipeDto)
+        [Consumes("multipart/form-data")]
+        public async Task<ActionResult> CreateRecipe([FromForm] RecipeDto recipeDto)
         {
             var recipe = await _recipeServiceAsync.CreateRecipe(recipeDto);
             var mappedRecipe = _recipeMapper.ToRecipeResponseDto(recipe);
@@ -63,7 +64,8 @@ namespace CulinaryRecipeAPI.Infrastructure.Controllers
         [ProducesResponseType(typeof(ApiErrorResponse), StatusCodes.Status403Forbidden)]
         [HttpPut("{id:int}")]
         [ServiceFilter(typeof(RecipeModifyFilter))]
-        public async Task<ActionResult<RecipeResponseDto>> UpdateRecipe(int id,[FromBody] RecipeDto recipeDto)
+        [Consumes("multipart/form-data")]
+        public async Task<ActionResult<RecipeResponseDto>> UpdateRecipe(int id,[FromForm] RecipeDto recipeDto)
         {
             var recipe = await _recipeServiceAsync.UpdateRecipe(id, recipeDto);
             var mappedRecipe = _recipeMapper.ToRecipeResponseDto(recipe);

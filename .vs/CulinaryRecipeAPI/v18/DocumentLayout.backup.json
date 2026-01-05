@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\project\\CulinaryRecipeAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|c:\\project\\culinaryrecipeapi\\culinaryrecipeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|solutionrelative:culinaryrecipeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|c:\\project\\culinaryrecipeapi\\culinaryrecipeapi\\usecases\\classes\\creaters\\imagecreater\\imagecreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|solutionrelative:culinaryrecipeapi\\usecases\\classes\\creaters\\imagecreater\\imagecreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|c:\\project\\culinaryrecipeapi\\culinaryrecipeapi\\usecases\\classes\\creaters\\recipecreater\\recipecreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|solutionrelative:culinaryrecipeapi\\usecases\\classes\\creaters\\recipecreater\\recipecreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CulinaryRecipeAPI\\Program.cs",
+              "ToolTip": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Program.cs",
+              "RelativeToolTip": "CulinaryRecipeAPI\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T18:36:46.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImageCreater.cs",
+              "DocumentMoniker": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\UseCases\\Classes\\Creaters\\ImageCreater\\ImageCreater.cs",
+              "RelativeDocumentMoniker": "CulinaryRecipeAPI\\UseCases\\Classes\\Creaters\\ImageCreater\\ImageCreater.cs",
+              "ToolTip": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\UseCases\\Classes\\Creaters\\ImageCreater\\ImageCreater.cs",
+              "RelativeToolTip": "CulinaryRecipeAPI\\UseCases\\Classes\\Creaters\\ImageCreater\\ImageCreater.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T18:32:23.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeCreater.cs",
+              "DocumentMoniker": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\UseCases\\Classes\\Creaters\\RecipeCreater\\RecipeCreater.cs",
+              "RelativeDocumentMoniker": "CulinaryRecipeAPI\\UseCases\\Classes\\Creaters\\RecipeCreater\\RecipeCreater.cs",
+              "ToolTip": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\UseCases\\Classes\\Creaters\\RecipeCreater\\RecipeCreater.cs",
+              "RelativeToolTip": "CulinaryRecipeAPI\\UseCases\\Classes\\Creaters\\RecipeCreater\\RecipeCreater.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T18:17:30.85Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

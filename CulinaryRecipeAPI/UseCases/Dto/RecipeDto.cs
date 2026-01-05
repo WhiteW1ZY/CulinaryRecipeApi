@@ -4,6 +4,7 @@
     { 
         public string Title { get; set; }
         public string RecipeText { get; set; }
+        public IFormFile? Image { get; set; }
         public int CookingTime { get; set; }  
         public int AuthorId { get; set; } 
         public List<String> CategoryNames { get; set; }

@@ -162,10 +162,13 @@ C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\staticwebassets
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\staticwebassets.development.json
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\swae.build.ex.cache
-C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\Culinary.FD0B2FEE.Up2Date
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\CulinaryRecipeAPI.dll
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\refint\CulinaryRecipeAPI.dll
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\CulinaryRecipeAPI.pdb
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\CulinaryRecipeAPI.genruntimeconfig.cache
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\ref\CulinaryRecipeAPI.dll
+C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\bin\Debug\net10.0\dotnet-tools.json
+C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\CulinaryRecipeAPI.sourcelink.json
+C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\bin\Debug\net10.0\CulinaryRecipeAPI.staticwebassets.runtime.json

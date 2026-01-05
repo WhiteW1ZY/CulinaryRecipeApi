@@ -1,4 +1,5 @@
-﻿using CulinaryRecipeAPI.Domain.Models; 
+﻿using CulinaryRecipeAPI.Domain.Models;
+using CulinaryRecipeAPI.UseCases.Classes.Creaters.ImageCreater;
 using CulinaryRecipeAPI.UseCases.Classes.Creaters.RecipeCreater;
 using CulinaryRecipeAPI.UseCases.Classes.Handlers;
 using CulinaryRecipeAPI.UseCases.Classes.Searchers.RecipeSearcher;

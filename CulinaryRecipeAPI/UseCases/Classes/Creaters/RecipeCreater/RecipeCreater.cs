@@ -1,5 +1,6 @@
 ﻿using CulinaryRecipeAPI.Domain.Models;
 using CulinaryRecipeAPI.UseCases.Classes.Creaters.CategoryCreater;
+using CulinaryRecipeAPI.UseCases.Classes.Creaters.ImageCreater;
 using CulinaryRecipeAPI.UseCases.Classes.Creaters.IngredientCreater; 
 using CulinaryRecipeAPI.UseCases.Classes.Searchers.UserSearcher;
 using CulinaryRecipeAPI.UseCases.Dto;
@@ -13,17 +14,20 @@ namespace CulinaryRecipeAPI.UseCases.Classes.Creaters.RecipeCreater
         private readonly IIngredientCreater _ingredientCreater;
         private readonly ICategoryCreater _categoryCreater;
         private readonly IUserSearcher _userSearcher;
+        private readonly IImageCreater _imageCreater;
         public RecipeCreater(
             IRecipeDtoValidator recipeDtoValidator, 
             IIngredientCreater ingredientCreater,
             ICategoryCreater categoryCreater,
-            IUserSearcher userSearcher
+            IUserSearcher userSearcher,
+            IImageCreater imageCreater
             )
         {
             _recipeDtoValidator = recipeDtoValidator;
             _ingredientCreater = ingredientCreater;
             _categoryCreater = categoryCreater;
             _userSearcher = userSearcher;
+            _imageCreater = imageCreater;
         }
         public async Task<Recipe> CreateFromDtoAsync(RecipeDto recipeDto)
         {
@@ -37,7 +41,14 @@ namespace CulinaryRecipeAPI.UseCases.Classes.Creaters.RecipeCreater
 
             var user = await _userSearcher.SearchByIdAsync(recipeDto.AuthorId);
 
-            return new Recipe(recipeDto.Title, recipeDto.RecipeText, recipeDto.CookingTime, user, categoryList, ingredientList);
+            String? imagePath = null;
+
+            if(recipeDto.Image is not null)
+            {
+                imagePath = await _imageCreater.CreateImageByFormFileAsync(recipeDto.Image!);
+            }
+
+            return new Recipe(recipeDto.Title, recipeDto.RecipeText, imagePath, recipeDto.CookingTime, user, categoryList, ingredientList);
         }
     }
 }

@@ -10,6 +10,8 @@ namespace CulinaryRecipeAPI.UseCases.Classes.Creaters.ClaimCreater
             {
                 new Claim(ClaimTypes.NameIdentifier, claimDto.Id), 
                 new Claim(ClaimTypes.Name, claimDto.UserName), 
+                new Claim(ClaimTypes.Email, claimDto.Email),
+                new Claim(ClaimTypes.Role, claimDto.Role),
             };
     }
 }

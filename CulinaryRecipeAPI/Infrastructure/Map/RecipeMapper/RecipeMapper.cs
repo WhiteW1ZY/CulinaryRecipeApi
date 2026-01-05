@@ -11,6 +11,7 @@ namespace CulinaryRecipeAPI.Infrastructure.Map.RecipeMapper
                 Id = recipe.Id,
                 Title = recipe.Title,
                 RecipeText = recipe.RecipeText,
+                ImagePath = recipe.ImagePath,
                 CookingTime = recipe.CookingTime,
                 CreatingDate = recipe.CreatingDate,
                 AuthorId = recipe.Author?.Id,
