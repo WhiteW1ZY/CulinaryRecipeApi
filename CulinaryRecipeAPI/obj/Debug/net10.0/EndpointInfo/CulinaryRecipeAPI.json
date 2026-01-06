@@ -1315,19 +1315,64 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/RecipeDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/RecipeDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/RecipeDto"
+                "type": "object",
+                "properties": {
+                  "Title": {
+                    "type": "string"
+                  },
+                  "RecipeText": {
+                    "type": "string"
+                  },
+                  "Image": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "CookingTime": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "AuthorId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CategoryNames": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "IngredientNames": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Title": {
+                  "style": "form"
+                },
+                "RecipeText": {
+                  "style": "form"
+                },
+                "Image": {
+                  "style": "form"
+                },
+                "CookingTime": {
+                  "style": "form"
+                },
+                "AuthorId": {
+                  "style": "form"
+                },
+                "CategoryNames": {
+                  "style": "form"
+                },
+                "IngredientNames": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -2067,47 +2112,6 @@
             "items": {
               "type": "integer",
               "format": "int32"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "RecipeDto": {
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "recipeText": {
-            "type": "string",
-            "nullable": true
-          },
-          "image": {
-            "type": "string",
-            "format": "binary",
-            "nullable": true
-          },
-          "cookingTime": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "authorId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "categoryNames": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "ingredientNames": {
-            "type": "array",
-            "items": {
-              "type": "string"
             },
             "nullable": true
           }

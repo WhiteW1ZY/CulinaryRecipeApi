@@ -8,5 +8,10 @@ namespace CulinaryRecipeAPI.Infrastructure.Validators
             if (!request.HasJsonContentType())
                 throw new InvalidOperationException($"Expected JSON, got {request.ContentType}");
         }
+        public void ValidateFormContent(HttpRequest request)
+        {
+            if (!request.HasFormContentType) 
+                throw new InvalidOperationException($"Expected FORM, got {request.ContentType}");
+        }
     }
 }

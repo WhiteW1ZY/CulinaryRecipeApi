@@ -1,4 +1,5 @@
 ﻿using CulinaryRecipeAPI.Infrastructure.Classes.Extractors.ClaimsPrincipaExtractor;
+using CulinaryRecipeAPI.Infrastructure.Classes.Extractors.FormDataRequestExtractor;
 using CulinaryRecipeAPI.Infrastructure.Classes.Extractors.QueryCollectionExtractor;
 using CulinaryRecipeAPI.Infrastructure.Classes.Extractors.RequestExtractor;
 using CulinaryRecipeAPI.Infrastructure.Filters.AdminOnlyFilter;
@@ -88,7 +89,8 @@ namespace CulinaryRecipeAPI.Configurations
             services.AddScoped<ITypeSearcher, TypeSearcher>();
             services.AddScoped<IUserExisterChecker, UserExisterChecker>();
 
-            services.AddScoped<IRequestExtractor, RequestExtractor>();
+            services.AddScoped<IFormDataRequestExtractor, FormDataRequestExtractor>();
+            services.AddScoped<IJsonRequestExtractor, JsonRequestExtractor>();
             services.AddScoped<IHttpContextExtractor, HttpContextExtractor>();
             services.AddScoped<IRequestValidator, RequestValidator>();
 

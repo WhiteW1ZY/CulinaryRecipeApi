@@ -1,4 +1,5 @@
 ﻿using CulinaryRecipeAPI.Infrastructure.Classes.Extractors.ClaimsPrincipaExtractor;
+using CulinaryRecipeAPI.Infrastructure.Classes.Extractors.FormDataRequestExtractor;
 using CulinaryRecipeAPI.Infrastructure.Classes.Extractors.RequestExtractor;
 using CulinaryRecipeAPI.UseCases.Dto;
 using CulinaryRecipeAPI.UseCases.PermissionsServices.RecipePermissionService;
@@ -11,28 +12,25 @@ namespace CulinaryRecipeAPI.Infrastructure.Filters.RecipeFilters
     {
         private readonly IClaimsPrincipalExtractor _claimsPrincipalExtractor; 
         private readonly IRecipePermissionService _recipePermissionService;
-        private readonly IRequestExtractor _requestExtractor;
+        private readonly IFormDataRequestExtractor _formDataRequestExtractor;
         public RecipeCreateFilter(
             IClaimsPrincipalExtractor claimsPrincipalExtractor, 
             IRecipePermissionService recipePermissionService,
-            IRequestExtractor requestExtractor
+            IFormDataRequestExtractor formDataRequestExtractor
         )
         {
             _claimsPrincipalExtractor = claimsPrincipalExtractor; 
-            _recipePermissionService = recipePermissionService;
-            _requestExtractor = requestExtractor;
+            _recipePermissionService = recipePermissionService; 
+            _formDataRequestExtractor = formDataRequestExtractor;
         }
         public async Task OnAuthorizationAsync(AuthorizationFilterContext context)
         {
             try
             {
-                var httpContext = context.HttpContext; 
-
-                var userId = _claimsPrincipalExtractor.ExtractUserId(httpContext.User);
-
-                var recipe = await _requestExtractor.ExtractType<RecipeDto>(httpContext.Request);
-
-                var hasPermissions = await _recipePermissionService.CanUserModifyRecipeAsync(userId, recipe.AuthorId);
+                var httpContext = context.HttpContext;  
+                var userId = _claimsPrincipalExtractor.ExtractUserId(httpContext.User); 
+                var authorIdValue = await _formDataRequestExtractor.ExtractId(httpContext.Request); 
+                var hasPermissions = await _recipePermissionService.CanUserModifyRecipeAsync(userId, authorIdValue);
                 if (!hasPermissions)
                 {
                     context.Result = new ForbidResult();

@@ -4,10 +4,10 @@ using System.Text.Json;
 
 namespace CulinaryRecipeAPI.Infrastructure.Classes.Extractors.RequestExtractor
 {
-    public class RequestExtractor : IRequestExtractor
+    public class JsonRequestExtractor : IJsonRequestExtractor
     {
         private readonly IRequestValidator _requestValidator;
-        public RequestExtractor(IRequestValidator requestValidator)
+        public JsonRequestExtractor(IRequestValidator requestValidator)
         {
             _requestValidator = requestValidator;
         } 

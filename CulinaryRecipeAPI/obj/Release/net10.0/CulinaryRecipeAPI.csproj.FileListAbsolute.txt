@@ -171,3 +171,4 @@ C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Release\net10.0\CulinaryRecip
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Release\net10.0\CulinaryRecipeAPI.genruntimeconfig.cache
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\obj\Release\net10.0\ref\CulinaryRecipeAPI.dll
 C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\bin\Release\net10.0\dotnet-tools.json
+C:\project\CulinaryRecipeAPI\CulinaryRecipeAPI\bin\Release\net10.0\CulinaryRecipeAPI.staticwebassets.runtime.json

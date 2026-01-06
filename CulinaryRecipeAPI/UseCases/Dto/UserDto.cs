@@ -1,6 +1,4 @@
-﻿using CulinaryRecipeAPI.Domain.Enums;
-
-namespace CulinaryRecipeAPI.UseCases.Dto
+﻿namespace CulinaryRecipeAPI.UseCases.Dto
 {
     public class UserDto
     {  
