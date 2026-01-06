@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\project\\CulinaryRecipeAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|c:\\project\\culinaryrecipeapi\\culinaryrecipeapi\\infrastructure\\filters\\recipefilters\\recipecreatefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|solutionrelative:culinaryrecipeapi\\infrastructure\\filters\\recipefilters\\recipecreatefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|c:\\project\\culinaryrecipeapi\\culinaryrecipeapi\\infrastructure\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|solutionrelative:culinaryrecipeapi\\infrastructure\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|c:\\project\\culinaryrecipeapi\\culinaryrecipeapi\\usecases\\permissionsservices\\recipepermissionservice\\recipepermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|solutionrelative:culinaryrecipeapi\\usecases\\permissionsservices\\recipepermissionservice\\recipepermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|c:\\project\\culinaryrecipeapi\\culinaryrecipeapi\\usecases\\classes\\creaters\\jwtcreater\\jwtcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA497AC7-E3D6-439F-8E1D-E17564AF1707}|CulinaryRecipeAPI\\CulinaryRecipeAPI.csproj|solutionrelative:culinaryrecipeapi\\usecases\\classes\\creaters\\jwtcreater\\jwtcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RecipeCreateFilter.cs",
+              "DocumentMoniker": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Infrastructure\\Filters\\RecipeFilters\\RecipeCreateFilter.cs",
+              "RelativeDocumentMoniker": "CulinaryRecipeAPI\\Infrastructure\\Filters\\RecipeFilters\\RecipeCreateFilter.cs",
+              "ToolTip": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Infrastructure\\Filters\\RecipeFilters\\RecipeCreateFilter.cs",
+              "RelativeToolTip": "CulinaryRecipeAPI\\Infrastructure\\Filters\\RecipeFilters\\RecipeCreateFilter.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T15:12:17.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipePermissionService.cs",
+              "DocumentMoniker": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\UseCases\\PermissionsServices\\RecipePermissionService\\RecipePermissionService.cs",
+              "RelativeDocumentMoniker": "CulinaryRecipeAPI\\UseCases\\PermissionsServices\\RecipePermissionService\\RecipePermissionService.cs",
+              "ToolTip": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\UseCases\\PermissionsServices\\RecipePermissionService\\RecipePermissionService.cs",
+              "RelativeToolTip": "CulinaryRecipeAPI\\UseCases\\PermissionsServices\\RecipePermissionService\\RecipePermissionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T15:12:41.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Infrastructure\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "CulinaryRecipeAPI\\Infrastructure\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\Infrastructure\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "CulinaryRecipeAPI\\Infrastructure\\Controllers\\RecipeController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T15:12:08.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "JwtCreater.cs",
               "DocumentMoniker": "C:\\project\\CulinaryRecipeAPI\\CulinaryRecipeAPI\\UseCases\\Classes\\Creaters\\JwtCreater\\JwtCreater.cs",
               "RelativeDocumentMoniker": "CulinaryRecipeAPI\\UseCases\\Classes\\Creaters\\JwtCreater\\JwtCreater.cs",

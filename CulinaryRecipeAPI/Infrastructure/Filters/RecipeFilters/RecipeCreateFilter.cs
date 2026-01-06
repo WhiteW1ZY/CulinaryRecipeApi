@@ -30,7 +30,7 @@ namespace CulinaryRecipeAPI.Infrastructure.Filters.RecipeFilters
                 var httpContext = context.HttpContext;  
                 var userId = _claimsPrincipalExtractor.ExtractUserId(httpContext.User); 
                 var authorIdValue = await _formDataRequestExtractor.ExtractId(httpContext.Request); 
-                var hasPermissions = await _recipePermissionService.CanUserModifyRecipeAsync(userId, authorIdValue);
+                var hasPermissions = await _recipePermissionService.CanUserCreateRecipe(userId, authorIdValue);
                 if (!hasPermissions)
                 {
                     context.Result = new ForbidResult();
